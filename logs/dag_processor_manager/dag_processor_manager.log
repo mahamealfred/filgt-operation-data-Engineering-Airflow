@@ -1,0 +1,27 @@
+[2026-02-25T08:23:17.573+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-02-25T08:23:17.576+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-02-25T08:23:17.578+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-25T08:23:17.579+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-02-25T08:23:17.587+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-25T08:24:33.083+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-02-25T08:25:08.298+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-02-25T08:25:08.308+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-02-25T08:25:08.310+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-25T08:25:08.315+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-02-25T08:25:08.323+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-25T08:29:28.539+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-02-25T08:29:53.096+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-02-25T08:29:53.098+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-02-25T08:29:53.099+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-25T08:29:53.100+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-02-25T08:29:53.104+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-25T08:31:51.198+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-02-25T08:32:17.909+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-02-25T08:32:17.910+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-02-25T08:32:17.911+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-25T08:32:17.912+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-02-25T08:32:17.916+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-25T08:37:18.787+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-02-25T08:37:18.803+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-25T08:42:18.826+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-02-25T08:42:18.831+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
