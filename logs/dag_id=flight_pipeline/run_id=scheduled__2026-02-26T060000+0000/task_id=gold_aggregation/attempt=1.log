@@ -1,0 +1,19 @@
+[2026-02-26T07:07:21.305+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-26T07:07:21.379+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_pipeline.gold_aggregation scheduled__2026-02-26T06:00:00+00:00 [queued]>
+[2026-02-26T07:07:21.396+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_pipeline.gold_aggregation scheduled__2026-02-26T06:00:00+00:00 [queued]>
+[2026-02-26T07:07:21.418+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-02-26T07:07:21.484+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): gold_aggregation> on 2026-02-26 06:00:00+00:00
+[2026-02-26T07:07:21.502+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'flight_pipeline', 'gold_aggregation', 'scheduled__2026-02-26T06:00:00+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/flight-pipeline.py', '--cfg-path', '/tmp/tmp2xtdkkg2']
+[2026-02-26T07:07:21.508+0000] {standard_task_runner.py:91} INFO - Job 125: Subtask gold_aggregation
+[2026-02-26T07:07:21.511+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=143) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-02-26T07:07:21.512+0000] {standard_task_runner.py:64} INFO - Started process 154 to run task
+[2026-02-26T07:07:21.663+0000] {task_command.py:426} INFO - Running <TaskInstance: flight_pipeline.gold_aggregation scheduled__2026-02-26T06:00:00+00:00 [running]> on host 4383f8a0204c
+[2026-02-26T07:07:21.929+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='flight_pipeline' AIRFLOW_CTX_TASK_ID='gold_aggregation' AIRFLOW_CTX_EXECUTION_DATE='2026-02-26T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-26T06:00:00+00:00'
+[2026-02-26T07:07:21.931+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-26T07:07:22.052+0000] {logging_mixin.py:188} INFO - Aggregated data saved to /opt/airflow/data/gold/flight_gold_20260226T060000.csv
+[2026-02-26T07:07:22.054+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-02-26T07:07:22.055+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-26T07:07:22.069+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=flight_pipeline, task_id=gold_aggregation, run_id=scheduled__2026-02-26T06:00:00+00:00, execution_date=20260226T060000, start_date=20260226T070721, end_date=20260226T070722
+[2026-02-26T07:07:22.252+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-02-26T07:07:22.279+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-02-26T07:07:22.403+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
